@@ -1,0 +1,206 @@
+html{
+    background-color: white;
+    background-size: cover;
+    
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    margin: 10px;
+    
+     
+}
+header h1{
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+    
+    text-shadow:   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000,
+     1px 1px 10px #141414;color:#fff;
+    background-color:#EDFFF6;
+    
+ 
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:rgba(73, 96, 216, 0.9);
+    border-radius: 30px;
+    
+}
+nav{
+    background-color: black;
+    text-align:center;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    padding:10px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+main {
+    
+    text-align: center;
+   }
+.presentation{
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgba(73, 96, 216, 0.9);
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+   
+}
+.presentation p {
+    margin-top: 30px;
+}
+
+.contenu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+.insta {
+    width: 20%;
+    padding: 20px;
+    
+    background-image:url(images/phone.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+    
+    
+}
+.insta img {
+    max-width: 40%;
+    height: auto;
+}
+
+.snap {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    background-image:url(images/phone.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+}
+.snap img {
+    max-width: 40%;
+    height: auto;
+}
+.youtube {
+    width: 20%;
+   
+    padding: 20px;
+    
+    background-image:url(images/phone.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.youtube img {
+    max-width: 40%;
+    height: auto;
+}
+footer {
+    height: 80px;
+
+    
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    
+}
+
+.slogan {
+  
+   height: 80px;
+   
+   flex-basis: 80% ;
+   text-align: right;
+   padding-right: 10px;
+   
+}
+.slogan p {
+    background-color:rgba(73, 96, 216, 0.9);
+    margin-top: 20px;
+    border-radius: 20px;
+    padding-right: 10px;
+}
+.logo1 {
+  
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo1 img {
+    width: 50px;
+    height: 50px;
+   
+}
+.logo2{
+    
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo2 img {
+    width: 50px;
+    height: 50px;
+}
+.logo3 {
+  
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo3 img {
+    width: 50px;
+    height: 50px;
+}

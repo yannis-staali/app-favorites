@@ -1,0 +1,158 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    
+    
+}
+header h1{
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+nav{
+    background-color: black;
+    text-align:center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+main {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    text-align: center;
+   }
+.presentation{
+    width: 40%;
+    margin: 0 auto;
+    background-color: #f03434;
+    font-size: 20px;
+   
+}
+
+.presentation p {
+    margin-top: 30px;
+}
+
+.contenu {
+   
+    display: block;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+}
+
+.insta {
+    background-color: #f03434;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 50px;
+}
+.insta img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 50px;
+}
+.insta p{
+    max-width: 30%;
+}
+.insta2 {
+    background-color: #f03434;
+    padding-top:30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.insta2 img {
+   width: 10%;
+   height: 10%;
+}
+footer {
+    height: 80px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.slogan {
+  
+   height: 80px;
+   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+   flex-basis: 80% ;
+   text-align: right;
+   padding-right: 10px;
+}
+.slogan p {
+    background-color: #f03434;
+}
+.logo1 {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo1 img {
+    width: 50px;
+    height: 50px;
+   
+}
+.logo2{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo2 img {
+    width: 50px;
+    height: 50px;
+}
+.logo3 {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(187,0,0,1) 100%);
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo3 img {
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,152 @@
+body{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    
+    
+}
+header h1{
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+nav{
+    background-color: black;
+    text-align:center;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+main {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    text-align: center;
+   }
+.presentation{
+    width: 40%;
+    margin: 0 auto;
+    background-color: rgb(255, 224, 0);
+    font-size: 20px;
+   
+}
+
+.presentation p {
+    margin-top: 30px;
+}
+
+.contenu {
+   
+    display: block;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+}
+
+.snap{
+    background-color: rgb(255, 224, 0);
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.snap p{
+    max-width: 50%; 
+  
+}
+.snap img {
+    max-width: 30%;
+    height: auto;
+}
+.snap2 {
+    background-color: rgb(255, 224, 0);
+}
+.snap2 img {
+   width: 10%;
+   height: 10%;
+}
+footer {
+    height: 80px;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.slogan {
+  
+   height: 80px;
+   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+   flex-basis: 80% ;
+   text-align: right;
+   padding-right: 10px;
+}
+.slogan p {
+    background-color: rgb(255, 224, 0);
+}
+.logo1 {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo1 img {
+    width: 50px;
+    height: 50px;
+   
+}
+.logo2{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo2 img {
+    width: 50px;
+    height: 50px;
+}
+.logo3 {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,252,0,1) 100%);
+    width: 80px;
+    height: 80px;
+    flex-basis: 5% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo3 img {
+    width: 50px;
+    height: 50px;
+}
